@@ -1,19 +1,19 @@
 ﻿Shader "LowpolyOcean/Examples/UnderOceanDiffuse"
 {
-	Properties
-	{
+    Properties
+    {
         _Color ("Color", COLOR) = (1, 1, 1, 1)
-		_MainTex ("Texture", 2D) = "white" {}
-	}
-	SubShader
-	{
-		Tags { "RenderType"="Opaque"  "IgnoreProjector"="True" }
+        _MainTex ("Texture", 2D) = "white" {}
+    }
+    SubShader
+    {
+        Tags { "RenderType"="Opaque"  "IgnoreProjector"="True" }
 
-		Pass
-		{
+        Pass
+        {
             Tags {"LightMode"="ForwardBase"}
 
-			CGPROGRAM
+            CGPROGRAM
             #pragma target 3.0
             #include "UnityCG.cginc"
             #include "AutoLight.cginc"
@@ -29,44 +29,44 @@
             #pragma multi_compile __ LPUNDER_OCEAN_COOKIE
             #pragma multi_compile __ LPUNDER_OCEAN_EFFECT
 
-			#pragma vertex vert
-			#pragma fragment frag
+            #pragma vertex vert
+            #pragma fragment frag
 
-			struct appdata
-			{
-				float4 vertex : POSITION;
+            struct appdata
+            {
+                float4 vertex : POSITION;
                 float3 normal : Normal;
-				float2 uv : TEXCOORD0;
-			};
+                float2 uv : TEXCOORD0;
+            };
 
-			struct v2f
-			{
-            	UNITY_POSITION(pos);
-				float2 uv : TEXCOORD0;
+            struct v2f
+            {
+                UNITY_POSITION(pos);
+                float2 uv : TEXCOORD0;
                 UNITY_FOG_COORDS(1)
                 float4 worldPos : TEXCOORD2;
                 half3 worldNormal : TEXCOORD3;
                 half4 screenPos : TEXCOORD5;
                 SHADOW_COORDS(6)
-			};
+            };
 
             half3 _Color;
-			sampler2D _MainTex;
-			float4 _MainTex_ST;
-			
-			v2f vert (appdata v)
-			{
-				v2f o;
-				o.pos = UnityObjectToClipPos(v.vertex);
-				o.uv = TRANSFORM_TEX(v.uv, _MainTex);
+            sampler2D _MainTex;
+            float4 _MainTex_ST;
+            
+            v2f vert (appdata v)
+            {
+                v2f o;
+                o.pos = UnityObjectToClipPos(v.vertex);
+                o.uv = TRANSFORM_TEX(v.uv, _MainTex);
                 o.worldPos = mul(unity_ObjectToWorld, v.vertex);
                 o.worldNormal = normalize(UnityObjectToWorldNormal(v.normal));
                 o.screenPos = ComputeScreenPos(o.pos);
-				UNITY_TRANSFER_FOG(o, o.vertex);
+                UNITY_TRANSFER_FOG(o, o.vertex);
                 TRANSFER_SHADOW(o)
-				return o;
-			}
-			
+                return o;
+            }
+            
             /*
                 The underwater effect is achieved by these two macros:
                     APPLY_LPUNDER_OCEAN_LIGHTING(pos, worldPos, screenPos, lightDir, lightColor, shadowAtten)
@@ -74,9 +74,9 @@
                 From "LPUnderOceanLighting.cginc"
             */    
             
-			half4 frag (v2f i) : SV_Target
-			{
-				half4 col = tex2D(_MainTex, i.uv);
+            half4 frag (v2f i) : SV_Target
+            {
+                half4 col = tex2D(_MainTex, i.uv);
                 col.rgb *= _Color;
 
                 half3 lightDir = normalize(_WorldSpaceLightPos0.xyz);
@@ -92,10 +92,10 @@
 
                 //Add fog effect
                 APPLY_LPUNDER_OCEAN_EFFECT(col.rgb, i.fogCoord, i.screenPos, i.pos, i.worldPos, lightDir, lightColor)
-				return col;
-			}
-			ENDCG
-		}
+                return col;
+            }
+            ENDCG
+        }
 
         Pass
         {
@@ -127,5 +127,5 @@
             }
             ENDCG
         }
-	}
+    }
 }
