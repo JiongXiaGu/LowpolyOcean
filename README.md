@@ -27,6 +27,7 @@ Here is the built-in render pipeline version, The Lightweight RP version in [Uni
 ### Known problem
 * Refraction consumes too much performance, unless the water does not receive shadows, In Lightweight RP, transparent objects can also receive shadows (limited), and opaque texture is relatively cheap to obtain.
 * In order to achieve refraction offset effect, need to use camera to render the camera depth texture of water. In Lightweight RP, only one pass is needed.
+* In Unity 2019.1.0f2, shadow display is incorrect.
 
 ### Effect
 
