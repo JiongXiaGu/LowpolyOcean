@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 826324ab89e12c444a24189941be49f3, type: 3}
+  m_Name: OceanMaterialData_0
+  m_EditorClassIdentifier: 
+  modeObject: {fileID: 11400000, guid: f4007b50e02e6d14ead26280416ce73f, type: 2}
+  data:
+    Tessellation:
+      Tessellation: 2
+      TessMinDistance: 200
+      TessMaxDistance: 700
+    Wave:
+      Texture: {fileID: 2800000, guid: 5b4659ec5c3d96d43a4261247e6ae679, type: 3}
+      Rect0: {x: 0.5, y: 0.5, z: 160, w: 160}
+      Rect1: {x: 0.5, y: 0.5, z: 60, w: 60}
+      Rect2: {x: 0.5, y: 0.5, z: 200, w: 200}
+      Rect3: {x: 0.5, y: 0.5, z: 60, w: 60}
+      Radian: {x: 1.0471976, y: 1.0471976, z: 0.5235988, w: 1.0471976}
+      UniformRadian: 0
+      HeightPow: {x: 2.8, y: 4.1, z: 2.2, w: 3.9}
+      HeightScale: {x: -0.5, y: 0.5, z: 3, w: 4.4}
+      SpeedZ: {x: 0.02, y: 0.02, z: 0.02, w: 0.04}
+    Lighting:
+      Albedo: {r: 0.37254903, g: 0.6901961, b: 0.6601295, a: 1}
+      Specular: {r: 0.2264151, g: 0.2264151, b: 0.2264151, a: 0.55}
+      Smoothness: 0.35
+      Occlusion: 1
+      ShadowAttenuation: 0.389
+      FresnelTexture: {fileID: 2800000, guid: 947960dbb6b26db40a8692257fee118e, type: 3}
+      Fresnel: 1
+      FresnelColor: {r: 0.21176471, g: 0.4692883, b: 0.5372549, a: 1}
+    Refraction:
+      Clarity: 0.2
+      DeepColor: {r: 0.2551175, g: 0.37637407, b: 0.46226418, a: 0.44705883}
+      Offset: 0.5
+    Foam:
+      Color: {r: 1, g: 1, b: 1, a: 0.3764706}
+      Intensity: 1.5
+      Range: 1.34
+      Texture: {fileID: 2800000, guid: 67daa82a3d5e5cf4d9fbb54b3f34d93e, type: 3}
+      Speed: {x: 0.01, y: 0.03, z: -0.02, w: 0.01}
+      Rect: {x: 0, y: 0, z: 10, w: 10}
+    Cookie:
+      Texture: {fileID: 11400000, guid: d19525136812cbb4787dd46f4cffa571, type: 2}
+      Color: {r: 0.9811321, g: 0.97592133, b: 0.9487362, a: 1}
+      Scale: {x: 12, y: 12, z: 1}
+      DepthAtten: 4
+      DepthAttenOffset: 2.41
+      LightAtten: 2.5
+      Intensity: 3
+    Reflection:
+      Intensity: 0.066
+      Offset: 1
+      HeightOffset: 0
+    BackLighting:
+      Color: {r: 0, g: 0.59, b: 0.62, a: 1}
+      SpecularPow: 20
+      SpecularColor: {r: 0.93, g: 0.93, b: 0.93, a: 1}
+      FresnelTexture: {fileID: 2800000, guid: a371f63242c8b4a4182592270ad84cf6, type: 3}
+      FresneIntensity: 0.72
+      FresnelColor: {r: 0.1, g: 0.34, b: 0.47, a: 1}
+      ShadowAttenuation: 0.65
+    BackRefraction:
+      Clarity: 0.752
+      Offset: 0.4
+    PointLighting:
+      Intensity: 1
+      BackIntensity: 1

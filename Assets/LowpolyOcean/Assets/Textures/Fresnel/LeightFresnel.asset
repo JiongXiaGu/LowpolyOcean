@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8db34eec5af445e43bd73b9755893a49, type: 3}
+  m_Name: LeightFresnel
+  m_EditorClassIdentifier: 
+  Curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.04680624
+      value: 1.0442188
+      inSlope: -1.3823488
+      outSlope: -1.3823488
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.51063883
+      value: 0.27363524
+      inSlope: -0.99662054
+      outSlope: -0.99662054
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.28979796
+      outWeight: 0.29733488
+    - serializedVersion: 3
+      time: 1.0291748
+      value: -0.006248474
+      inSlope: -0.53975755
+      outSlope: -0.53975755
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  TextureSize: {x: 256, y: 1}

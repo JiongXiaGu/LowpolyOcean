@@ -1,0 +1,468 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Water
+  m_Shader: {fileID: 4800000, guid: 9cb8cfa40eea5c140ac38e2390654664, type: 3}
+  m_ShaderKeywords: LPOCEAN_WAVE3
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 2dd3788f8589b40bf82a92d76ffc5091, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpTexture:
+        m_Texture: {fileID: 2800000, guid: 5172883f19560c34db24c164f824d406, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DepthTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Fresnel:
+        m_Texture: {fileID: 2800000, guid: 5b5c5575fd4c74abd9f7b30862fb76a3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FresnelMap:
+        m_Texture: {fileID: 2800000, guid: bbe71c065be7eca47b24d1e03bf041b3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FresnelTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FresnelTexture:
+        m_Texture: {fileID: 2800000, guid: fc01d4b5b6718864abddec6d1b86b808, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeightMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OceanArtisticFresnelTexture:
+        m_Texture: {fileID: 2800000, guid: fc01d4b5b6718864abddec6d1b86b808, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OceanBackArtisticFresnelTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OceanCookieTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OceanFoamTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OceanFresnelTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OceanWaveTexture:
+        m_Texture: {fileID: 2800000, guid: 5b4659ec5c3d96d43a4261247e6ae679, type: 3}
+        m_Scale: {x: 0, y: 0}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectiveColor:
+        m_Texture: {fileID: 2800000, guid: ab97f9ab7c2ce724ebc9446060a819a4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RefractionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RippleHeightTexture:
+        m_Texture: {fileID: 2800000, guid: dd7ee639862804742b0765edb3fa56a1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RippleTexture:
+        m_Texture: {fileID: 2800000, guid: c0159a912a470594d8ee2788cb37865f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughOffsetHeightMap:
+        m_Texture: {fileID: 2800000, guid: 5a7857bf35588e94f8e212dc39938b8c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UnderFresnelTexture:
+        m_Texture: {fileID: 2800000, guid: fc01d4b5b6718864abddec6d1b86b808, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UnderOceanArtisticFresnelTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UnderOceanFresnelTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertOffsetMap:
+        m_Texture: {fileID: 2800000, guid: 2d1d62807759d6840af9d6bcce38f4f7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveHeightTexture:
+        m_Texture: {fileID: 2800000, guid: 834323e92d081b7409f77b3658bcdea7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - LPW_ENABLED: 1
+    - LPW_ENABLED_WAVE: 1
+    - LpwEnable: 1
+    - Lpw_Enable_Wave: 0
+    - _Absorption: 9.37
+    - _BumpScale: 1
+    - _BumpScale_: 1
+    - _BumpSpeed: 0.2
+    - _Clarity: 8
+    - _Clarity2: 11.67
+    - _ColorDepth: 9.58
+    - _Cull: 2
+    - _Cull_: 2
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _Diffuse: 0.5
+    - _DiffuseIntensity: 1
+    - _DiffuseStrength: 1
+    - _Direction: 180
+    - _Distort: 0
+    - _Distortion: 1
+    - _DstBlend: 0
+    - _EdgeBlend: 0
+    - _EnableBackLighting: 1
+    - _EnableClip: 1
+    - _EnableDepth: 1
+    - _EnableDepthEffect: 1
+    - _EnableFoam: 1
+    - _EnableLighting: 1
+    - _EnablePointLighting: 1
+    - _EnableReflection: 1
+    - _EnableRefraction: 1
+    - _EnableRipple: 0
+    - _EnableRipple0: 1
+    - _EnableRipple1: 1
+    - _EnableRipple2: 1
+    - _EnableRipple3: 1
+    - _EnableRoughOffset: 1
+    - _EnableShadows: 0
+    - _EnableSinWave: 1
+    - _EnableSpectialWave: 1
+    - _EnableUnderLighting: 1
+    - _EnableVertOffset: 1
+    - _EnableWave: 1
+    - _EnableWave0: 1
+    - _EnableWave1: 1
+    - _EnableWave2: 1
+    - _EnableWave3: 1
+    - _Enable_Wave: 1
+    - _Enablettt: 1
+    - _FoamRange: 1
+    - _FoamScale: 20
+    - _FoamSpeed: 0.3
+    - _FoamSpread: 1
+    - _FresPower: 1.5
+    - _Fresnel: 1
+    - _FresnelIntensity: 4.2
+    - _FresnelStrength: 1.6
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _HQFoam: 0
+    - _Height: 0.5
+    - _HeightScale: 3.2
+    - _Height_: 0
+    - _LPOceanReflectionValue: 0
+    - _LPW_ENABLED: 1
+    - _Length: 4
+    - _LightAbs: 0
+    - _LightIntensity: 0.5
+    - _Metallic: 0
+    - _Mode: 0
+    - _NormalOffset: 1
+    - _Occlusion: 1
+    - _OcclusionStrength: 1
+    - _OceanAlpha: 0.834
+    - _OceanArtisticFresnePow: 1.2
+    - _OceanArtisticLighting: 0
+    - _OceanArtisticShadowAttenuation: 0.57
+    - _OceanArtisticSpecularPow: 30
+    - _OceanBackArtisticFresneIntensity: 1
+    - _OceanBackArtisticShadowAttenuation: 1
+    - _OceanBackArtisticSpecularPow: 0.3
+    - _OceanBackPointLightIntensity: 1
+    - _OceanBackRefractionClarity: 0.3
+    - _OceanBackRefractionOffset: 1
+    - _OceanClarity: 0.111
+    - _OceanCookieDepthAtten: 2
+    - _OceanCookieDepthAttenOffset: -10
+    - _OceanCookieIntensity: 1
+    - _OceanCookieLightAtten: 1
+    - _OceanFoamIntensity: 1
+    - _OceanFoamRange: 0.3
+    - _OceanFresneIntensity: 0.45
+    - _OceanFresnelBase: 0.1
+    - _OceanFresnelIntensity: 1.09
+    - _OceanOcclusion: 0.803
+    - _OceanPointLightIntensity: 1
+    - _OceanReflectionHeight: 0
+    - _OceanReflectionIntensity: 0.2
+    - _OceanReflectionOffset: 0.8
+    - _OceanRefractionClarity: 0.573
+    - _OceanRefractionIntensity: 0.656
+    - _OceanRefractionOffset: 0.3
+    - _OceanShadowAttenuation: 1
+    - _OceanShallowClarity: 0.9
+    - _OceanSmoothness: 0.509
+    - _OceanSpecular: 0.059
+    - _OceanTessMaxDistance: 400
+    - _OceanTessMinDistance: 100
+    - _OceanTessellation: 3
+    - _OceanWaveUniformRadian: 0
+    - _Opacity: 1
+    - _Parallax: 0.02
+    - _PointLightIntensity: 0.3
+    - _PointLightSpecularIntensity: 1
+    - _PointLightSpecularLightIntensity: 1.38
+    - _PointLights: 0
+    - _RHeight: 0.25
+    - _RHeight_: 0.2
+    - _RSpeed: 1
+    - _RSpeed_: 0.2
+    - _ReflDistort: 0.44
+    - _Reflection: 1.2
+    - _ReflectionIntensity: 0.4
+    - _ReflectionOffset: 0.3
+    - _RefrDistort: 0.4
+    - _Refraction: 2
+    - _RefractionOffset: 0.4
+    - _RippleHeightScale: 2
+    - _RippleIntensity: 84.3
+    - _RippleRange: 4.1
+    - _RippleWorldRadian: 6.369405
+    - _RippleWorldRotation: 1281.7065
+    - _RoughOffsetScale: 0.2
+    - _Scale: 1
+    - _Scale_: 1
+    - _Shading: 0
+    - _Shadow: 0.485
+    - _ShadowIntensity: 0.7
+    - _ShoreDistance: 0.5
+    - _ShoreIntensity: 1
+    - _Smoothness: 0.492
+    - _SmoothnessTextureChannel: 0
+    - _Specular: 0.23
+    - _SpecularA: 0.7
+    - _SpecularColorIntensity: 0.5
+    - _SpecularColorStrength: 0.6
+    - _SpecularHighlights: 1
+    - _SpecularIntensity: 1
+    - _SpecularLightIntensity: 0.25
+    - _SpecularRange: 13.43
+    - _SpecularStrength: 60
+    - _Speed: 0.1
+    - _Speed_: 0
+    - _SrcBlend: 1
+    - _Steepness: 0.2
+    - _Stretch: 10
+    - _Tess: 1
+    - _TessMaxDistance: 500
+    - _TessMinDistance: 100
+    - _Tessellation: 4
+    - _TessellationUniform: 4
+    - _TexSize_: 64
+    - _Time_: 0
+    - _TransformScale_: 1
+    - _Transparency: 0.191
+    - _UVSec: 0
+    - _UnderClarity: 0.6
+    - _UnderDiffuseIntensity: 1
+    - _UnderFresnelIntensity: 4.2
+    - _UnderOceanArtisticFresneIntensity: 1.7
+    - _UnderOceanArtisticFresnePow: 0.58
+    - _UnderOceanArtisticShadowAttenuation: 0.657
+    - _UnderOceanArtisticSpecularPow: 20
+    - _UnderOceanClarity: 0.4
+    - _UnderOceanFresneIntensity: 0
+    - _UnderOceanOcclusion: 0
+    - _UnderOceanPointLightIntensity: 1
+    - _UnderOceanRefractionIntensity: 0.2
+    - _UnderOceanRefractionOffset: 0.3
+    - _UnderOceanShadowAttenuation: 0.657
+    - _UnderOceanSmoothness: 0
+    - _UnderOceanSpecular: 0
+    - _UnderRefractionOffset: 3.19
+    - _UnderShadowIntensity: 0.85
+    - _UnderSpecularIntensity: 0.2
+    - _UnderSpecularRange: 15
+    - _VertOffsetSpeed: 1
+    - _WaveHeightPow: 0
+    - _WaveHeightScale: 1
+    - _WaveLength: 6
+    - _WaveScale: 1.84
+    - _WaveSinLength: 8
+    - _WaveSinScale: 1.2
+    - _WaveSinSpeed: 3
+    - _WaveSpeed: 0.1
+    - _WaveWorldRadian: 0.34906584
+    - _Waves: 2
+    - _ZWrite: 1
+    m_Colors:
+    - WaveSpeed: {r: 19, g: 9, b: -16, a: -7}
+    - _Albedo: {r: 0.29803923, g: 0.71854645, b: 0.8392157, a: 1}
+    - _BumpSpeed: {r: -4.17, g: 0.08, b: 1, a: 1}
+    - _Color: {r: 0.34456205, g: 0.63529414, b: 0.85882354, a: 1}
+    - _DeepColor: {r: 0.11280704, g: 0.44775254, b: 0.6132076, a: 1}
+    - _Diffuse: {r: 0, g: 0.73154783, b: 1, a: 1}
+    - _DiffuseColor: {r: 0.3320718, g: 0.45637453, b: 0.5441177, a: 1}
+    - _Direction_: {r: 0, g: 0, b: 0, a: 0}
+    - _Emission: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 0.9019608}
+    - _FresColor: {r: 0.30499998, g: 0.37099996, b: 0.39499998, a: 1}
+    - _Fresnel: {r: 0.29803923, g: 0.5058824, b: 0.57254905, a: 1}
+    - _FresnelColor: {r: 0.28235295, g: 0.9019608, b: 0.9529412, a: 1}
+    - _HorizonColor: {r: 0.17199996, g: 0.46299994, b: 0.43499997, a: 1}
+    - _OceanAlbedo: {r: 0.13510145, g: 0.35989767, b: 0.41509432, a: 1}
+    - _OceanArtisticColor: {r: 0.16794232, g: 0.67669654, b: 0.6981132, a: 1}
+    - _OceanArtisticFresnelColor: {r: 0.2198736, g: 0.55267096, b: 0.764151, a: 1}
+    - _OceanArtisticSpecularColor: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 1}
+    - _OceanBackArtisticColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OceanBackArtisticFresneColor: {r: 0.42999998, g: 0.73, b: 0.89, a: 1}
+    - _OceanBackArtisticSpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OceanCookieColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OceanDeepColor: {r: 0.19999999, g: 0.47864696, b: 0.59607846, a: 1}
+    - _OceanEmission: {r: 0, g: 0, b: 0, a: 1}
+    - _OceanFoamColor: {r: 1, g: 1, b: 1, a: 0.3019608}
+    - _OceanFoamRect: {r: 0.5, g: 0.5, b: 10, a: 10}
+    - _OceanFoamSpeed: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _OceanFresnelColor: {r: 0.03034888, g: 0.39870414, b: 0.5849056, a: 1}
+    - _OceanRefractionDeepColor: {r: 0.2741634, g: 0.50851434, b: 0.5754717, a: 1}
+    - _OceanSpecular: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 0.44705883}
+    - _OceanWaveExpectedHeight: {r: 0, g: 0, b: 0, a: 0}
+    - _OceanWaveHeightPow: {r: 3.3, g: 3.9, b: 1.8, a: 2.7}
+    - _OceanWaveHeightScale: {r: -2.1, g: 1.8, b: 4.7, a: 2.9}
+    - _OceanWaveRadian: {r: 0.6981317, g: 1.0471976, b: 0, a: 1.2217305}
+    - _OceanWaveRect0: {r: 0.5, g: 0.5, b: 100, a: 150}
+    - _OceanWaveRect1: {r: 0.5, g: 0.5, b: 60, a: 60}
+    - _OceanWaveRect2: {r: 0.5, g: 0.5, b: 150, a: 120}
+    - _OceanWaveRect3: {r: 0.5, g: 0.5, b: 30, a: 30}
+    - _OceanWaveScale: {r: 1, g: 2.9, b: 6, a: 1}
+    - _OceanWaveSpeed01: {r: 0, g: 0.005, b: 0, a: 0.05}
+    - _OceanWaveSpeed23: {r: 0, g: 0.02, b: 0, a: 0}
+    - _OceanWaveSpeedY: {r: 0.004, g: 0.03, b: 0.02, a: 0.02}
+    - _OceanWaveSpeedZ: {r: 0.03, g: 0.015, b: 0.04, a: 0.02}
+    - _OceanWaveTextureRect0: {r: 0.5, g: 0.5, b: 100, a: 50}
+    - _OceanWaveTextureRect1: {r: 0.5, g: 0.5, b: 60, a: 30}
+    - _OceanWaveTextureRect2: {r: 0.5, g: 0.5, b: 30, a: 30}
+    - _OceanWaveTextureRect3: {r: 0.5, g: 0.5, b: 30, a: 30}
+    - _OceanWaveTextureRectW: {r: 0, g: 0, b: 30, a: 30}
+    - _OceanWaveTextureRectX: {r: 0, g: 0, b: 30, a: 30}
+    - _OceanWaveTextureRectY: {r: 0, g: 0, b: 30, a: 30}
+    - _OceanWaveTextureRectZ: {r: 0, g: 0, b: 30, a: 30}
+    - _OceanWaveTextureRecta: {r: 0.5, g: 0.5, b: 30, a: 30}
+    - _OceanWaveTextureRectb: {r: 0.5, g: 0.5, b: 30, a: 30}
+    - _OceanWaveTextureRectg: {r: 0.5, g: 0.5, b: 30, a: 30}
+    - _OceanWaveTextureRectr: {r: 0.5, g: 0.5, b: 30, a: 30}
+    - _RefrColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RefractionOffset: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _RippleHeightScale: {r: 3, g: 4.11, b: 0, a: 0}
+    - _RippleTextureRect: {r: 0.5, g: 0.5, b: 20, a: 20}
+    - _RippleWorldPosition: {r: -11.4, g: -20.64, b: 0, a: 0}
+    - _RippleWorldRotation: {r: 0, g: 0.05233596, b: 0, a: 0.9986295}
+    - _RoughOffsetHeightMapRect: {r: 0, g: 0, b: 100, a: 100}
+    - _RoughOffsetScale: {r: 0.5, g: 0.3, b: 0.5, a: 1}
+    - _RoughOffsetSpeed: {r: 0.005, g: 0.005, b: 0, a: 0}
+    - _ShadowMask: {r: 1, g: 1, b: 1, a: 1}
+    - _ShoreColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 0.70299995, g: 0.676, b: 0.43799996, a: 1}
+    - _Specular: {r: 0.79145694, g: 0.8235294, b: 0.24221452, a: 1}
+    - _SpecularColor: {r: 0.35686275, g: 0.4232657, b: 0.44313726, a: 1}
+    - _Sun: {r: 0, g: 0, b: 0, a: 0}
+    - _SunColor: {r: 0.50735295, g: 0.40662846, b: 0.40662846, a: 1}
+    - _SunDirection: {r: -0.45072687, g: -0.7705132, b: -0.45072693, a: 0}
+    - _Tess: {r: 3, g: 1, b: 1, a: 3}
+    - _UnderColor: {r: 0.34420606, g: 0.63601506, b: 0.8584906, a: 1}
+    - _UnderFresnelColor: {r: 0.28235295, g: 0.9000143, b: 0.9529412, a: 1}
+    - _UnderOceanAlbedo: {r: 1, g: 1, b: 1, a: 1}
+    - _UnderOceanArtisticColor: {r: 0, g: 0.5980105, b: 0.6226415, a: 1}
+    - _UnderOceanArtisticFresneColor: {r: 0.104574576, g: 0.33748084, b: 0.4716981,
+        a: 1}
+    - _UnderOceanArtisticSpecularColor: {r: 0.811, g: 0.9339623, b: 0.9339623, a: 1}
+    - _UnderOceanEmission: {r: 0, g: 0, b: 0, a: 0}
+    - _UnderOceanFresnelColor: {r: 0.17021182, g: 0.36703995, b: 0.4811321, a: 1}
+    - _VertOffsetDirection: {r: 1, g: 0, b: 0, a: 0}
+    - _VertOffsetScale: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _VertOffsetSpeed: {r: 0.07, g: 0.03, b: 0, a: 0}
+    - _WaveDir: {r: 0, g: 0, b: 1, a: 0}
+    - _WaveDirection: {r: 1.55, g: 2.43, b: 0, a: 0}
+    - _WaveHeightScale: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _WaveHeightTextureRect: {r: 0.5, g: 0.5, b: 30, a: 30}
+    - _WaveRadian: {r: 0, g: 0, b: 0, a: 0}
+    - _WaveRect0: {r: 0.5, g: 0.5, b: 30, a: 30}
+    - _WaveRect1: {r: 0.5, g: 0.5, b: 30, a: 30}
+    - _WaveRect2: {r: 0.5, g: 0.5, b: 30, a: 30}
+    - _WaveRect3: {r: 0.5, g: 0.5, b: 30, a: 30}
+    - _WaveScale: {r: 1, g: 1, b: 1, a: 1}
+    - _WaveSinDirection: {r: 1, g: 0, b: 0, a: 0}
+    - _WaveSpeed: {r: 0, g: 0.07, b: 0, a: 0}
+    - _WaveSpeed01: {r: 0.01, g: 0.01, b: 0.01, a: 0.01}
+    - _WaveSpeed23: {r: 0.01, g: 0.01, b: 0.01, a: 0.01}
+    - _WaveTextureRect: {r: 0.5, g: 0.5, b: 50, a: 60}

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90a5233c9c40df242859fbd96d29eaca, type: 3}
+  m_Name: OceanWaveBlender4
+  m_EditorClassIdentifier: 
+  UseShderType: 1
+  Material: {fileID: 0}
+  Shader: {fileID: 4800000, guid: 323242fff549dbf4a92a2e74a695dae4, type: 3}
+  UsePass: 0
+  ComputeShader: {fileID: 0}
+  Parameters:
+    List:
+    - name: Texture0
+      format: 4
+      intValue: 0
+      floatValue: 0
+      color: {r: 0, g: 0, b: 0, a: 0}
+      colorValue: {x: 0, y: 0, z: 0, w: 0}
+      texture: {fileID: 2800000, guid: 4cf76bd533a987c489e370399e136bcb, type: 3}
+    - name: Texture1
+      format: 4
+      intValue: 0
+      floatValue: 0
+      color: {r: 0, g: 0, b: 0, a: 0}
+      colorValue: {x: 0, y: 0, z: 0, w: 0}
+      texture: {fileID: 2800000, guid: 4cf76bd533a987c489e370399e136bcb, type: 3}
+    - name: Texture2
+      format: 4
+      intValue: 0
+      floatValue: 0
+      color: {r: 0, g: 0, b: 0, a: 0}
+      colorValue: {x: 0, y: 0, z: 0, w: 0}
+      texture: {fileID: 2800000, guid: 4cf76bd533a987c489e370399e136bcb, type: 3}
+    - name: Texture3
+      format: 4
+      intValue: 0
+      floatValue: 0
+      color: {r: 0, g: 0, b: 0, a: 0}
+      colorValue: {x: 0, y: 0, z: 0, w: 0}
+      texture: {fileID: 2800000, guid: 4cf76bd533a987c489e370399e136bcb, type: 3}
+  Target: {fileID: 0}
+  TextureSize: {x: 2048, y: 2048}
+  TextureDepth: 0
+  TextureFormat: 7
+  TextureReadWrite: 1

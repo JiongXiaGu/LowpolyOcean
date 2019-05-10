@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f82b4011f21d26468b2957bc1f2e35c, type: 3}
+  m_Name: UnderOceanMaterialData
+  m_EditorClassIdentifier: 
+  modeObject: {fileID: 11400000, guid: 102201cb8aefd214ea9a5ca3b641e720, type: 2}
+  data:
+    Lighting:
+      LightAtten: 80
+      LightAttenClamp: {x: 0.3, y: 0.9}
+      ShadowAtten: 80
+      ShadowAttenClamp: {x: 0, y: 0.9}
+      ShadowIntensity: 0.3
+    Fog:
+      Color: {r: 0.07008721, g: 0.2564357, b: 0.4245283, a: 1}
+      Clarity: 0.089
+      DepthAtten: 150
+      LightAttenuationClamp: {x: 0.3, y: 0.8}
+    Cookie:
+      Texture: {fileID: 11400000, guid: d19525136812cbb4787dd46f4cffa571, type: 2}
+      Scale: {x: 4, y: 4, z: 1}
+      Attenuation: 8
+      Intensity: 0.8
+      InShowIntensity: 1.9

@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MarkOcean_LOD1
+  m_Shader: {fileID: 4800000, guid: c215a9b0cae0bf54e8635436d211d34a, type: 3}
+  m_ShaderKeywords: LPOCEAN_WAVE3
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _OceanWaveTexture:
+        m_Texture: {fileID: 2800000, guid: 5b4659ec5c3d96d43a4261247e6ae679, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RippleHeightTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughOffsetHeightMap:
+        m_Texture: {fileID: 2800000, guid: 5a7857bf35588e94f8e212dc39938b8c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveHeightTexture:
+        m_Texture: {fileID: 2800000, guid: 834323e92d081b7409f77b3658bcdea7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BackColor: 0.2
+    - _EnableRipple: 0
+    - _EnableRipple0: 0
+    - _EnableRipple1: 0
+    - _EnableRipple2: 0
+    - _EnableRipple3: 0
+    - _EnableRoughOffset: 1
+    - _EnableWave: 1
+    - _EnableWave0: 1
+    - _EnableWave1: 1
+    - _EnableWave2: 1
+    - _EnableWave3: 1
+    - _FornColor: 1
+    - _MarkColor: 0.2
+    - _MarkSide: 0
+    - _MaskColor: 0.2
+    - _OceanTessMaxDistance: 700
+    - _OceanTessMinDistance: 200
+    - _OceanTessellation: 2
+    - _RippleHeightScale: 1
+    - _RippleWorldRadian: 0
+    - _RoughOffsetScale: 0
+    - _TessMaxDistance: 0
+    - _TessMinDistance: 0
+    - _Tessellation: 0
+    - _WaveHeightScale: 0
+    - _WaveWorldRadian: 0
+    - _WhiteOrBlackOnBack: -1
+    m_Colors:
+    - _BackColor: {r: 0.448, g: 0.47599998, b: 0.47599998, a: 1}
+    - _FornColor: {r: 0.406, g: 0.406, b: 0.406, a: 1}
+    - _OceanWaveHeightPow: {r: 2.2, g: 4.1, b: 2.15, a: 4.7}
+    - _OceanWaveHeightScale: {r: -0.8, g: 0.5, b: 6.5, a: 4.5}
+    - _OceanWaveRadian: {r: 1.0471976, g: 1.0471976, b: 0.5235988, a: 1.0471976}
+    - _OceanWaveRect0: {r: 0.5, g: 0.5, b: 160, a: 160}
+    - _OceanWaveRect1: {r: 0.5, g: 0.5, b: 60, a: 60}
+    - _OceanWaveRect2: {r: 0.5, g: 0.5, b: 200, a: 200}
+    - _OceanWaveRect3: {r: 0.5, g: 0.5, b: 60, a: 60}
+    - _OceanWaveScale: {r: 1, g: 9.94, b: 6, a: 1}
+    - _OceanWaveSpeed01: {r: 0, g: 0.005, b: 0, a: 0.05}
+    - _OceanWaveSpeed23: {r: 0, g: 0.02, b: 0, a: 0}
+    - _OceanWaveSpeedY: {r: 0.004, g: 0.03, b: 0.02, a: 0.02}
+    - _OceanWaveSpeedZ: {r: 0.02, g: 0.02, b: 0.02, a: 0.04}
+    - _OceanWaveTextureRect0: {r: 0.5, g: 0.5, b: 30, a: 30}
+    - _OceanWaveTextureRect1: {r: 0.5, g: 0.5, b: 30, a: 30}
+    - _OceanWaveTextureRect2: {r: 0.5, g: 0.5, b: 30, a: 30}
+    - _OceanWaveTextureRect3: {r: 0.5, g: 0.5, b: 30, a: 30}
+    - _RippleTextureRect: {r: 0.5, g: 0.5, b: 5, a: 5}
+    - _RippleWorldPosition: {r: 0, g: 0, b: 0, a: 0}
+    - _RoughOffsetHeightMapRect: {r: 0, g: 0, b: 0, a: 0}
+    - _RoughOffsetSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _WaveHeightTextureRect: {r: 0, g: 0, b: 0, a: 0}
+    - _WaveSpeed: {r: 0, g: 0, b: 0, a: 0}

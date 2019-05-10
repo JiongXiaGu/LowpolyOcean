@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4adaa92a31a8ca04281ebba8ac3960f5, type: 3}
+  m_Name: ProjectSettings
+  m_EditorClassIdentifier: 
+  RenderQueue: 2000
+  OceanLayer:
+    Layer: 4
+  MarkLayer:
+    Layer: 24
+  DepthEffect:
+    RenderMode: 0
+    CullingMask:
+      serializedVersion: 2
+      m_Bits: 8388615
+    CameraRenderingPath: -1
+    TextureScale: 1
+    EnablePointLights: 1
+  Reflection:
+    CullingMask:
+      serializedVersion: 2
+      m_Bits: 8388615
+    RenderingPath: -1
+    TextureScale: 1
+    EnablePointLights: 0
+  OceanClip:
+    TextureScale: 1
+  UnderOceanMark:
+    TextureScale: 1
+    UnderOceanFornMark: 0.5
+    UnderOceanBackMark: 0
+    OceanFornMark: 0.8
+    OceanBackMark: 0.2
+  Foam:
+    EnabledFoamShpereCulling: 1

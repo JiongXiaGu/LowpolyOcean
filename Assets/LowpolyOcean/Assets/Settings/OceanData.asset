@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328a0f8ffc3322a47a551c8d2797de40, type: 3}
+  m_Name: OceanData
+  m_EditorClassIdentifier: 
+  level: 0.5
+  levelDefinition:
+    List:
+    - name: 0
+      threshol: 0
+      dataObject: {fileID: 11400000, guid: 09f0c7050fd911544b02c4d59d1efb44, type: 2}
+    - name: 1
+      threshol: 1
+      dataObject: {fileID: 11400000, guid: 1611e2b962f74b14c97c63af9b5b57b1, type: 2}
+  lodQualitys:
+    List:
+    - modeObject: {fileID: 11400000, guid: f4007b50e02e6d14ead26280416ce73f, type: 2}
+      material: {fileID: 2100000, guid: 08b5000f8a124ed42ac8218616858a5b, type: 2}
+      markMaterial: {fileID: 2100000, guid: 5eefab7aa9776a849ae413256ea5a3ad, type: 2}
+    - modeObject: {fileID: 11400000, guid: 3f5e8f4165a6f4647972b1196c9c0ec8, type: 2}
+      material: {fileID: 2100000, guid: b357382a3e0861f478981979f22d4942, type: 2}
+      markMaterial: {fileID: 2100000, guid: c94b8588587e9b6468518f9520401a94, type: 2}
+  isAutoUpdateMaterial: 1
