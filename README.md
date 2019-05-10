@@ -29,6 +29,20 @@ Here is the built-in render pipeline version, The Lightweight RP version in [Uni
 * In order to achieve refraction offset effect, need to use camera to render the camera depth texture of water. In Lightweight RP, only one pass is needed.
 * In Unity 2019.1.0f2, shadow display is incorrect.
 
+### Thanks
+
+Unity Document : https://docs.unity3d.com/Manual/index.html
+
+GPU Gems : https://developer.nvidia.com/gpugems/GPUGems/gpugems_pref01.html
+
+Catlike Coding : https://catlikecoding.com/
+
+Assassin’s Creed III: The tech behind (or beneath) the action : https://www.fxguide.com/featured/assassins-creed-iii-the-tech-behind-or-beneath-the-action/
+
+Reference for HLSL : https://docs.microsoft.com/zh-cn/windows/desktop/direct3dhlsl/dx-graphics-hlsl
+
+Assassin’s Creed: Black Flag – Waterplane : https://simonschreibt.de/gat/black-flag-waterplane/
+
 ### Effect
 
 ![1](https://github.com/JiongXiaGu/LowpolyOcean/blob/master/Image/FaFaFa.png)
