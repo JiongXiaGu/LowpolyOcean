@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: cb0e462763b9e1c4a9c3426d22ffc585
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: "\u80F6\u56CA"
+    100004: OceanClip
+    100006: OceanClipBack
+    100008: OceanClipFron
+    100010: OceanClipBase0
+    100012: OceanClipBase1
+    100014: OceanClipTop0
+    100016: OceanClipTop1
+    100018: BigBoat
+    100020: Water
+    400000: //RootNode
+    400002: "\u80F6\u56CA"
+    400004: OceanClip
+    400006: OceanClipBack
+    400008: OceanClipFron
+    400010: OceanClipBase0
+    400012: OceanClipBase1
+    400014: OceanClipTop0
+    400016: OceanClipTop1
+    400018: BigBoat
+    400020: Water
+    2100000: No Name
+    2300000: "\u80F6\u56CA"
+    2300002: //RootNode
+    2300004: OceanClip
+    2300006: OceanClipBack
+    2300008: OceanClipFron
+    2300010: OceanClipBase0
+    2300012: OceanClipBase1
+    2300014: OceanClipTop0
+    2300016: OceanClipTop1
+    2300018: BigBoat
+    2300020: Water
+    3300000: "\u80F6\u56CA"
+    3300002: //RootNode
+    3300004: OceanClip
+    3300006: OceanClipBack
+    3300008: OceanClipFron
+    3300010: OceanClipBase0
+    3300012: OceanClipBase1
+    3300014: OceanClipTop0
+    3300016: OceanClipTop1
+    3300018: BigBoat
+    3300020: Water
+    4300000: "\u80F6\u56CA"
+    4300002: BigBoat
+    4300004: OceanClip
+    4300006: OceanClipFron
+    4300008: OceanClipBack
+    4300010: OceanClipBase0
+    4300012: OceanClipTop0
+    4300014: OceanClipBase1
+    4300016: OceanClipTop1
+    4300018: Water
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
