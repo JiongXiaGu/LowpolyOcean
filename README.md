@@ -16,13 +16,16 @@ Here is the built-in render pipeline version, The Lightweight RP version in [Uni
 
 ### Comparison
 
+All code has been rewritten and optimized in the Lightweight RP version.
+
 | Mode | built-in RP | Lightweight RP |
 | :--: | :--: | :--: |
+| Performance | Slower | Faster |
 | Lighting style | Pixel | Pixel, Flat |
 | Fron Side Lighting Module | UnityPBS | Blinn-Phong, SunShine |
 | Point Light | Built-in method | Blinn-Phong |
 | Reflection | Planar | Color, CubeTexture, Probes |
-| Performance | Slower | Faster |
+| Under Water | Simple | Advanced |
 
 ### Known problem
 * Refraction consumes too much performance, unless the water does not receive shadows, In Lightweight RP, transparent objects can also receive shadows (limited), and opaque texture is relatively cheap to obtain.
