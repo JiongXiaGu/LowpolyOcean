@@ -10,6 +10,8 @@ Supports water surface and under water effects, and under water effects can be s
 
 Here is the built-in render pipeline version, The Lightweight RP version in [Unity asset store](https://assetstore.unity.com/packages/slug/134311).
 
+Wiki : https://github.com/JiongXiaGu/LowpolyOcean/wiki
+
 ### Demo  (Note the Version)
 - [GoogleDrive](https://drive.google.com/drive/folders/1velKf2LdrW4I9dhpaCaa2XS_lD5siBMy)
 - [BaiduPan](https://pan.baidu.com/s/1i-1KVi470Ro2tEPD6TGuEQ)
