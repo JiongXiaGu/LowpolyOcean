@@ -26,8 +26,9 @@ All code has been rewritten and optimized in the Lightweight RP version.
 | Lighting style | Pixel | Pixel, Flat |
 | Fron Side Lighting Module | UnityPBS | Blinn-Phong, SunShine |
 | Point Light | Built-in method | Blinn-Phong |
-| Reflection | Planar | Color, CubeTexture, Probes |
+| Reflection | Planar | Color, CubeTexture, Probes, Planar |
 | Under Water | Simple | Advanced |
+| Vertex displacement | Simple | Advanced |
 
 ### Known problem
 * Refraction consumes too much performance, unless the water does not receive shadows, In Lightweight RP, transparent objects can also receive shadows (limited), and opaque texture is relatively cheap to obtain.
